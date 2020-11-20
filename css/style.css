@@ -1,0 +1,36 @@
+h2{
+	background-color: pink;
+	text-align: center;
+}
+h3{
+	color: red;
+}
+#naga{
+	color: orange;
+}
+.satti{
+	color: skyblue;
+}
+*{
+	text-align: center;
+}
+p,h4,h5,table{
+     background-color: aqua;
+}
+/*css comments*/
+.parent{
+	background-color: bisque;
+	margin: 5%;
+	display: flex;
+	/*flex-direction:row;*/
+	justify-content: space-between;
+}
+
+.child{
+	background-color: aqua;
+	margin: 4%;
+	padding: 2%
+}
+.or{
+	flex-direction: row;
+}
