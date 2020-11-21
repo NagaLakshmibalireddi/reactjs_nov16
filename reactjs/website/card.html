@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,intial-scale=1.0">
+	<link rel="icon" href="img.jpg">
+	<h1 style="text-align: center;color: maroon"> My Works</h1>
+	<title>Profile card</title>
+	<style type="text/css">
+		.profile{
+			display: flex;
+			width: 100%;
+			border: 2px solid blue;
+			padding: 1%;
+			margin: 1%;
+		}
+		.profile>div{
+			padding: 1%;
+			margin: 1%;
+			width: 30%;
+			border: 20px solid maroon;
+			text-align: center;
+			box-shadow: 6px 6px 6px 6px;
+
+		}
+		img{
+			border-radius: 15%;
+			border: 2px solid maroon;
+
+		}
+		button{
+			box-shadow: 2px 2px 2px 2px;
+			color: blue;
+			width: 25%;
+		}
+		a{
+			text-decoration: none;
+		}
+
+		.copy{
+			text-align: center;
+			background-color: red;
+			color: blue;
+           
+		}
+		
+/*Tab View*/
+		@media only screen and (min-width:320px) and (max-width:480px)	{
+			body{
+				background-color: blue;
+			}
+			.profile,.header{
+				display: flex;
+				flex-direction: row;
+				max-width: 100px;
+				/*flex-wrap: wrap;*/
+
+			}
+			.profile>div,.header>div{
+				width: 90%;
+				text-align: center;
+			}
+		}
+		.header{
+	display: flex;
+	width: 100%;
+	margin: 1%;
+	padding: 1%;
+}
+.header>div{
+	width: 50%;
+	padding: 1%;
+	margin: 1%;
+	
+}
+.right{
+	text-align: center;
+}
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="left"></div>
+		<img src="India.jpg" width="200px" height="200px" alt="profile">
+		<div class="right"></div>
+	</div>
+	<div class="right">
+		<h1 style="color: blue;text-align: center">NagaLakshmi B</h1>
+		<h2 style="color: blue;text-align: center">Reactjs</h2>
+		<h3 style="color:blue;text-align: center">nag@gmail.com</h3>
+	</div>
+  <div class="profile">
+     <div class="card">
+     	<img src="img.jpg" width="100px" height="100px" alt="profilecard">
+     	<h1 style="color: green">Google icon</h1>
+     	<hr>
+     	<h3>Every one know</h3>
+     	     	<button><a href="#">View</a></button>
+     </div>
+     <div class="card">
+     	<img src="ml.jpg" width="100px" height="100px" alt="profilecard">
+     	<h1 style="color: pink">Mechine learning icon</h1>
+     	<hr>
+     	<h3>Hi I am learn</h3>
+     	     	<button><a href="#">View</a></button>
+     </div>
+     <div class="card">
+     	<img src="India.jpg" width="100px" height="100px" alt="profilecard">
+     	<h1 style="color: teal">India icon</h1>
+     	<hr>
+     	<h3>Love my country</h3>
+     	<button><a href="#">View</a></button>
+     </div>  	
+  </div>
+  <!--Footer-->
+  <div class="copy">
+  	<h1>All Copy Rights From NagaLashmi .B @2020</h1>
+  </div>
+</body>
+</html>
