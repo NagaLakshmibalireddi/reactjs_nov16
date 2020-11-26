@@ -49,6 +49,69 @@
   display: table;
   clear: both;
 }
+/*Tab View*/
+	@media only screen and (min-width:320px) and (max-width:480px)	{
+			body{
+				background-color: blue;
+			}
+			.profile,.header{
+				display: flex;
+				flex-direction: column;
+				max-width: 100%;
+				/*flex-wrap: wrap;*/
+
+			}
+			.profile>div,.header>div{
+				width: 90%;
+				text-align: center;
+			}
+		
+		.copy{
+			max-width: 100%;
+		}
+	}
+	
+/* Tab View*/
+@media only screen and (min-width:481px) and (max-width: 768px){
+	body{
+		color: lightgreen;
+	}
+			.profile{
+
+				display: flex;
+				flex-direction: row-reverse;
+				max-width: 100%;
+				/*flex-wrap: wrap;*/
+			}
+			.profile>div{
+				width: 90%;
+
+			}
+			.copy{
+				max-width: 100%;
+			}
+			}
+
+@media only screen and (min-width:769px) and (max-width: 1024px){
+	body{
+		color: blue;
+	}
+			.profile{
+
+				display: flex;
+				flex-direction: row;
+				max-width: 100%;
+				/*flex-wrap: wrap;*/
+			}
+			.profile>div{
+				width: 90%;
+				background-color: yellow;
+
+			}
+			.copy{
+				max-width: 100%;
+			}
+			}
 
 	
 </style>
