@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="description" content="profilecard">
-	<meta name="viewport" content="width=device-width,intial-scale=1.0">
+	<meta name="description" content="profile Card">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="img.jpg">
-	<h1 style="text-align: center;color: maroon"> My Works</h1>
+
 	<title>Profile card</title>
 	<style type="text/css">
 		.profile{
@@ -44,23 +44,6 @@
            
 		}
 		
-/*Tab View*/
-		@media only screen and (min-width:320px) and (max-width:480px)	{
-			body{
-				background-color: blue;
-			}
-			.profile,.header{
-				display: flex;
-				flex-direction: row;
-				max-width: 100px;
-				/*flex-wrap: wrap;*/
-
-			}
-			.profile>div,.header>div{
-				width: 90%;
-				text-align: center;
-			}
-		}
 		.header{
 	display: flex;
 	width: 100%;
@@ -73,21 +56,83 @@
 	margin: 1%;
 	
 }
-.right{
-	text-align: center;
-}
+/*Tab View*/
+		@media only screen and (min-width:320px) and (max-width:480px)	{
+			body{
+				background-color: blue;
+			}
+			.profile,.header{
+				display: flex;
+				flex-direction: column;
+				max-width: 100%;
+				/*flex-wrap: wrap;*/
+
+			}
+			.profile>div,.header>div{
+				width: 90%;
+				text-align: center;
+			}
+		
+		.copy{
+			max-width: 100%;
+		}
+	}
+	
+/* Tab View*/
+@media only screen and (min-width:481px) and (max-width: 768px){
+	body{
+		color: blue;
+	}
+			.profile{
+
+				display: flex;
+				flex-direction: row-reverse;
+				max-width: 100%;
+				/*flex-wrap: wrap;*/
+			}
+			.profile>div{
+				width: 90%;
+
+			}
+			.copy{
+				max-width: 100%;
+			}
+			}
+
+@media only screen and (min-width:769px) and (max-width: 1024px){
+	body{
+		color: blue;
+	}
+			.profile{
+
+				display: flex;
+				flex-direction: row;
+				max-width: 100%;
+				/*flex-wrap: wrap;*/
+			}
+			.profile>div{
+				width: 90%;
+				background-color: yellow;
+
+			}
+			.copy{
+				max-width: 100%;
+			}
+			}
 
 	</style>
 </head>
 <body>
 	<div class="header">
-		<div class="left"></div>
-		<img src="img.jpg" width="200px" height="200px" alt="profile">
+		<div class="left">
+		<img src="img.jpg" width="200px" height="200px" alt="profile"></div>
 	<div class="right">
-		<h1 style="color: blue;text-align: center">NagaLakshmi B</h1>
-		<h1 style="color: blue;text-align: center">Reactjs</h1>
-		<h1 style="color:blue;text-align: center">nag@gmail.com</h1>
+		<h1 style="color: blue";>NagaLakshmi B</h1>
+		<h1 style="color: blue;">Reactjs</h1>
+		<h1 style="color:blue;">nag@gmail.com</h1>
 	</div>
+</div>
+	<h1 style="text-align: center; color: maroon">My Works</h1>
   <div class="profile">
      <div class="card">
      	<img src="img.jpg" width="200px" height="200px" alt="profilecard">
@@ -114,7 +159,7 @@
   <!--Footer-->
   <div class="copy">                                                       
 
-  	<h1 style="color:#ffffff">                                                                                                             All Copy Rights From NagaLashmi .B @2020</h1>
+  	<h1 style="color:#ffff">                                                                                                             All Copy Rights From NagaLashmi .B @2020</h1>
   </div>
 </body>
 </html>

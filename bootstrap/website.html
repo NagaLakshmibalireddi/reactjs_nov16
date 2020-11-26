@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Website</title>
+	<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+<!-- jQuery and JS bundle w/ Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<style type="text/css">
+	* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.column1 {
+  float: right;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+img{
+	width: 250px;
+	height: 300px;
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand bg-info">
+	<ul class="navbar-nav">
+		<li class="nav-item p-1 navbar-brand text-warning">Home</li>
+		<li class="nav-item p-1 navbar-brand text-warning">Profile</li>
+		<li class="nav-item p-1 navbar-brand text-warning">About</li>
+		
+	</ul>
+	<div class="dropddown">
+		<button class="dropddown-toggle btn-warning" data-toggle="dropdown">
+		<ul class="dropdown-menu">
+		<li class="dropdown-item">Profile</li>
+		<li class="dropdown-item">About</li>
+	</ul>
+View
+</button>
+	</div>
+</nav>
+	<!--Profile Section-->
+	<div class="container p-3">
+		<div class="row">
+			<div class="col-sm-12 col-md-6 text-center">
+				<img src="web.png" class="rounded" style="border:2px solid green ">
+			</div>
+			<div class="col-sm-12 col-md-6 text-center">
+				<h2>We<span class="text-primary">
+					Kalyan,Gayatri,<br>Swami</span> From APSSDC</h2>
+				<h3>Multi Skill Talented</h3>
+				<h4>APSSDC</h4>
+			</div>
+		</div>
+	</div>
+	<!--profile card section-->
+	
+	<div class="container-fulid p-3">
+	<div class="container">
+		<div class="text-center">
+			<h1 class="text-success">My Desiging</h1>
+			<p class="lead text-primary">We are working APSSDC ReactJs Team wedeal with Online class using Goto Meeting my weapons are HTML CSS JS Bootstrap, REACTJS</p>
+		</div>
+		<div class="row text-center">
+			<div class="col-sm-12 col-md-4">
+			<div class="column text-center py-3 p-2 m-2">
+				<img src="card1.png" alt="card1" style="width:100%">
+				<h1 class="card-title">Kalyan</h1>
+				<h3 class="card-text">Online Traning</h3>
+				<button class="btn-warning">View</button>
+			</div>
+
+			<!-- Card-2 -->
+			
+			<div class="column text-center py-3 p-2 m-5">
+				<img src="card2.png" alt="card2" style="width:100%">
+				<h1 class="card-title">Gayathri</h1>
+				<h3 class="card-text">Online Traning</h3>
+				<button class="btn-success">View</button>
+			</div>
+		</div>
+			<!-- Card-3 -->
+			<div class="column text-center py-3 p-3 m-8">
+				<img src="card3.png" alt="card3" style="width:100%">
+				<h1 class="card-title">Swami</h1>
+				<h3 class="card-text">Online Traning</h3>
+				<button class="btn-primary">View</button>
+
+              </div>
+     </div>
+      
+</div>
+</div>
+<!-- Footer -->
+<div class="footer text-center bg-danger">
+	<div class="col-sm-12 text-center">
+		<h1 class="text-center">All Copy Rights are Reviced</h1>
+	</div>
+</div>
+</body>
+</html>
