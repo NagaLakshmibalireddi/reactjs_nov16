@@ -1,0 +1,59 @@
+{
+    "name": "NagaLakshmi",
+	"email": "nag676@gmail.com",
+	"phone": 1223746390,
+    
+	
+	"career":"Seeking a position to utilize my skills and abilities in the Information Technology Industry that offers professional growth while being resouseful,innovative and flexible.",
+	
+	
+
+	"skills": [{
+		"course": "Programming Languages",
+		"keywords": ["C", "Java", "Python"]
+	}, {
+		"course": "Web Technologies",
+		"keywords": ["Html", "Css3", "JavaScript"]
+	}],
+
+	"Career":{
+               "Career Objective" : "Seeking a position to utilize my skills and abilities in the Information Technology Industry that offers professional growth while being resouseful,innovative and flexible."
+	
+	},
+
+
+"Education details":[
+    {
+    	"sno":"1",
+    	"institute":"ABC College",
+    	"YOF":"2021",
+    	"percentage":"83"
+    },
+    {
+    	"sno":"2",
+    	"institute":"GOVT College",
+    	"YOF":"2017",
+    	"percentage":"92"
+    },
+    {
+    	"sno":"3",
+    	"institute":"ABC School",
+    	"YOF":"2015",
+    	"percentage":"92"
+    }
+         ],
+
+
+	"interests": [{
+		"name": "Wildlife",
+		"keywords": [
+			"Ferrets",
+			"Unicorns"
+		]
+	}],
+
+	"languages": [{
+		"language": "English",
+		"fluency": "Native speaker"
+	}]
+}
